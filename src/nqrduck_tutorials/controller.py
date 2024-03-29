@@ -1,8 +1,6 @@
 from nqrduck.module.module_controller import ModuleController
 
-# If the module is called "duck" the class would be called "DuckController"
-
-class ModuleController(ModuleController):
+class TutorialsController(ModuleController):
 
     def __init__(self, module):
         """Initialize the controller."""
